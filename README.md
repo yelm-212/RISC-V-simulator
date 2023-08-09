@@ -2,8 +2,9 @@
 
 ## usage
 
-First, convert your assembly instruction into binary (your binary file)
+First, convert your assembly instruction into binary. (your binary file)
 
+Then, execute this python program with converted binary file.
 ```shell
 python3 ./riscv_sim.py ./your_binary_file
 ```
