@@ -2,6 +2,8 @@
 
 ## usage
 
+First, convert your assembly instruction into binary (your binary file)
+
 ```shell
 python3 ./riscv_sim.py ./your_binary_file
 ```
