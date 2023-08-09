@@ -363,7 +363,7 @@ def EX():
         B = int('0b'+Imm, 2)
 
     # TODO : implement Branch Operations
-    # 무한루프 오류 수정함
+    # 무한루프 오류 수정
     if CU.ImmSel == CU.ImmSel_Vals.B:
         BC.setBr(R1, R2)
         if BC.BrOp == BC.Br_Vals.beq:
@@ -480,7 +480,6 @@ CU = Control_Unit() # new control unit class
 BC = BranchComp() # new Branch composition unit
 
 while not halt:
-    # Branch 무한루프 문제 해결함
     inst = IF(PC)
     Imm = '0' * 32  # initialized as binary string except 0b
     rd, R1, R2 = None, None, None #
