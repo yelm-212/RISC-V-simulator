@@ -1,3 +1,16 @@
+# RISC-V Simulator
+
+## usage
+
+```shell
+python3 ./riscv_sim.py ./your_binary_file
+```
+
+
+## Expected Output
+
+![image](https://github.com/yelm-212/RISC-V-simulator/assets/88075691/46e191ed-ca13-4b5a-858f-1d791c980c00)
+
 # Control Logic(Control Unit)
 - `ALUSel`, `RegWEn`, `MemRW`, `ImmSel`, 
 `BrUN`, `ASel`, `BSel`, `WBSel`, `PCSel`을 내부 변수로 가지며 생성시 초기화된다.
